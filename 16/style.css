@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+h1 {
+    width: 100%;
+    font-size: 50px;
+    padding-left: 300px;
+  }
+  ul {
+      list-style: none;
+      height: 100px;
+      border: 3px solid black;
+  }
+
+.list
+{
+    margin-left: 300px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    margin: 0px;
+    width: 300px;
+    }
+div{
+  margin-left: 300px;
+    }
+h2 {
+    width: 100%;
+    font-size: 36px;
+    padding-left: 100px;
+}
+.price {
+    padding-left: 25px;
+    width: 100px;
+ border: 1px solid black;
+ font-weight: bold;
+}
+h3 {
+    width: 200px;
+}
+button {
+    margin-left: 325px;
+}

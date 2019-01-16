@@ -47,11 +47,12 @@ for (var i=0; i<10; i++) {
                 tdElem.innerHTML = letters[j-1]
             }
         }
-        /*if ((j===0)||(j===9)) {
+        if ((i===0)||(j===0))  {
             if ((i>0) && (i<9))  {
                 trElem.innerHTML = numbers[i-1];
             }
-        }*/
+        }
+
        if ((i==1) && ((j===1) || (j===8))) {
         tdElem.innerHTML = figures.white.rook;
        }
